@@ -1,0 +1,7 @@
+import pywhatkit
+
+number = "Enter your mobile no. with country code"
+
+message = "Hello, this is an automated WhatsApp message!"
+
+pywhatkit.sendwhatmsg(number, message, 19, 30)
